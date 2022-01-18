@@ -114,7 +114,7 @@ robservable(
             hide = "draw",
             input = list(
               data = fallecidos_millon,
-              title = "COVID-19: confirmados acumulados por millón de habitantes",
+              title = "COVID-19: fallecidos acumulados por millón de habitantes",
               subtitle = "Inicia cuando los 9 departamentos reportaron casos",
               source = "rafalopezv con datos de Boligráfica"
             ),
