@@ -79,17 +79,17 @@ robservable(
 
 # confirmados acumulados
 robservable(
-            "https://observablehq.com/@rafalopezv/bar-chart-race",
-            include = c("viewof date", "chart", "draw", "styles"),
-            hide = "draw",
-            input = list(
-              data = confirmados_millon,
-              title = "COVID-19: confirmados acumulados por millón de habitantes",
-              subtitle = "Inicia cuando los 9 departamentos reportaron casos",
-              source = "rafalopezv con datos de Boligráfica"
-            ),
-            width = "100%",
-            height = "100%"
+  "https://observablehq.com/@rafalopezv/bar-chart-race",
+  include = c("viewof date", "chart", "draw", "styles"),
+  hide = "draw",
+  input = list(
+    data = confirmados_millon,
+    title = "COVID-19: confirmados acumulados por millón de habitantes",
+    subtitle = "Inicia cuando los 9 departamentos reportaron casos",
+    source = "rafalopezv con datos de Boligráfica"
+  ),
+  width = "100%",
+  height = "100%"
 ) -> confirmados_millon_g 
 
 # fallecidos acumulados
@@ -109,32 +109,32 @@ robservable(elementId = "fallecidos",
 
 # fallecidos acumulados millón
 robservable(
-            "https://observablehq.com/@rafalopezv/bar-chart-race",
-            include = c("viewof date", "chart", "draw", "styles"),
-            hide = "draw",
-            input = list(
-              data = fallecidos_millon,
-              title = "COVID-19: fallecidos acumulados por millón de habitantes",
-              subtitle = "Inicia cuando los 9 departamentos reportaron casos",
-              source = "rafalopezv con datos de Boligráfica"
-            ),
-            width = "100%",
-            height = "100%"
+  "https://observablehq.com/@rafalopezv/bar-chart-race",
+  include = c("viewof date", "chart", "draw", "styles"),
+  hide = "draw",
+  input = list(
+    data = fallecidos_millon,
+    title = "COVID-19: confirmados acumulados por millón de habitantes",
+    subtitle = "Inicia cuando los 9 departamentos reportaron casos",
+    source = "rafalopezv con datos de Boligráfica"
+  ),
+  width = "100%",
+  height = "100%"
 ) -> fallecidos_millon_g 
 
 # letalidad
 robservable(
-            "https://observablehq.com/@rafalopezv/bar-chart-race",
-            include = c("viewof date", "chart", "draw", "styles"),
-            hide = "draw",
-            input = list(
-              data = letalidad,
-              title = "COVID-19: letalidad",
-              subtitle = "¿Cuántos de los contagiados fallecen por cada 100 personas (en casos acumulados)",
-              source = "rafalopezv con datos de Boligráfica"
-            ),
-            width = "100%",
-            height = "100%"
+  "https://observablehq.com/@rafalopezv/bar-chart-race",
+  include = c("viewof date", "chart", "draw", "styles"),
+  hide = "draw",
+  input = list(
+    data = letalidad,
+    title = "COVID-19: letalidad",
+    subtitle = "¿Cuántos de los contagiados fallecen por cada 100 personas (en casos acumulados)",
+    source = "rafalopezv con datos de Boligráfica"
+  ),
+  width = "100%",
+  height = "100%"
 ) -> letalidad_g
 
 # frecuencia de casos
@@ -180,7 +180,7 @@ fallecidos_millon_es %>%
   ) +
   scale_y_continuous(labels = scales::percent_format()) +
   labs(
-    title = "Santa Cruz ha tenido los casos acumulados más altos menos del 1% del tiempo",
+    title = "Santa Cruz nunca ha tenido los casos acumulados más altos",
     subtitle = "Fallecidos acumulados por millón de habitantes",
     y = "Tiempo de duración de la pandemia hasta el 15 de enero de 2021",
     x = "",
@@ -214,5 +214,7 @@ letalidad_es %>%
   geom_text(aes(label = paste0(prop*100)), family = "Roboto Condensed", 
             size = 6,  hjust = 1)
 ggsave("img/letalidad.jpg", width = 10, height = 7)
+
+
 
 

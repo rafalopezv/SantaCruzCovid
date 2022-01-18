@@ -3,7 +3,7 @@
     "path": "~/Documents/R/SantaCruzCovid/code/limpieza.R",
     "project_path": "code/limpieza.R",
     "type": "r_source",
-    "hash": "3561934219",
+    "hash": "984987425",
     "contents": "",
     "dirty": false,
     "created": 1642476451102.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "116,54",
-        "scrollLine": "108"
+        "cursorPosition": "182,32",
+        "scrollLine": "175"
     },
     "folds": "",
-    "lastKnownWriteTime": 1642476488,
+    "lastKnownWriteTime": 1642483245,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1642476488748,
+    "last_content_update": 1642483245077,
     "read_only": false,
     "read_only_alternatives": []
 }
