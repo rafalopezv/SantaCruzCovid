@@ -90,10 +90,14 @@ fallecidos_g
 ## Método
 
 - Fuente de datos sobre casos en Bolivia por departamento: [Boligráfica](https://www.boligrafica.com/) (gracias!)
-- Página, gráficos, animaciones: propias vía [R]() y [Observable](https://observablehq.com/@rafalopezv/bar-chart-race)
-- Usé el notebook original de [juba](https://observablehq.com/@juba/bar-chart-race) que originalmente viene de [Jhon Murdock](https://observablehq.com/@johnburnmurdoch/bar-chart-race). [A la copia (fork)](https://observablehq.com/@rafalopezv/bar-chart-race) le cambié un par de cosas y lo conecté a [R]() vía la librería [`robservable`](https://juba.github.io/robservable/)
+- Página, gráficos, animaciones: propias vía [R](https://github.com/rafalopezv/SantaCruzCovid) y [Observable](https://observablehq.com/@rafalopezv/bar-chart-race)
+- Usé el notebook original de [juba](https://observablehq.com/@juba/bar-chart-race) que originalmente viene de [Jhon Murdock](https://observablehq.com/@johnburnmurdoch/bar-chart-race). [A la copia (fork)](https://observablehq.com/@rafalopezv/bar-chart-race) le cambié un par de cosas y lo conecté a [R](https://github.com/rafalopezv/SantaCruzCovid) vía la librería [`robservable`](https://juba.github.io/robservable/)
 - Los datos de población se descargaron del Instituto Nacional de Estadística. Para los cálculos se utilizó la población proyectada al año 2022.
 - Todo es re-utilizable y reproducible
 - Si van a compartir, citen
+
+<br>
+<br>
+Soundtrack: apa
 
 
